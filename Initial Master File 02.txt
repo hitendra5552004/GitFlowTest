@@ -1,1 +1,2 @@
-Testing inital 02
+Testing inital 02 added new next commit to branch
+added rebase test to local feture branch
