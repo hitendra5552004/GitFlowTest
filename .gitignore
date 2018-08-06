@@ -1,0 +1,20 @@
+_ReSharper*
+[Bb]in/
+[Oo]bj/
+*.suo
+*.user
+.vs/
+*/TestResults/
+
+#deployment packages
+/publish
+/wkhpe.sso.publish.zip
+/build/tools
+
+#nhibernate configuration
+hibernate.config
+
+
+#build for webcomponents
+/GitWorking/WebApplicationSample/WebApplicationSample*
+
