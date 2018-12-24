@@ -1,1 +1,1 @@
-Feature file 1
+Feature file 1 with new log deatils
