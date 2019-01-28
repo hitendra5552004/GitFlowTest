@@ -1,0 +1,1 @@
+PowerShell.exe -ExecutionPolicy Bypass -File src\jwp-rename-captions.ps1

@@ -1,0 +1,25 @@
+## Execution ##
+
+<#
+   This Script to get the trackfile list from JWP video key and update the title/label of the trackfiles
+   Last updated: 2019-01-28
+#>
+
+prerequisite
+
+a. Clack settings need to configure manually ( set the proper Clack settings to JW player Propery like point-prod or default)
+
+Source file 
+
+1.jwp-TrackUpdate-Utility.ps1 
+
+please note : currently only subtitles   track file is filter ( no chpaters file trackfile and captions type filter in script if required the need to update the filter accordingly )
+
+# getTrackIdDetailsFromVideokey.csv is primarly used as input file to this utility and make sure it has valid data like 
+column name should be Videokey in the inpust csv file 
+Videokey - videokey of the video which we want to find the all the track label and trackkey
+
+Step 1. run PowerShell.exe -ExecutionPolicy Bypass -File src\jwp-TrackUpdate-Utility.ps1 
+Step 2. select the getTrackIdDetailsFromVideokey.csv with updated video key list
+Step 3. after successful execution you will see the "OutPutListtrack_trackids.csv" which will show the deatils about track file name before and after change
+Step 4. Console will show the total track file update count
