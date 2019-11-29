@@ -1,3 +1,5 @@
 Feature file 1
 file 3
 file4
+
+git rebase master commit 4th commit
